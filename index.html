@@ -6,32 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Home page</title>
     <style>
-       
+    
          header{
-            width: 100%;
-           height: 100vh;
+           background-size: cover;
+           height: 600px;
             background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url("another.jpg");
             background-repeat: no-repeat;
             
         }
+    .navbar{
+      background-color:rgba(0,0,0,0.3); 
+    }
     p.normal {
     margin: 0px;
     background-color: #6B8E23;
     font-style: oblique;
     color: #fff;
     text-align: center;
-    font-size: 40px;    
+    font-size: 20px;    
     }
-    .search{
-    margin-left: 30px;
-    border: 1px solid rgb(241, 241, 237);     
-    width: 250%;
-    margin: 15px;
-    padding: 10px;
-     background-color:rgba(0,0,0,0.1) ; 
-    }     
+       
     #icon1{
         padding-left: 20px;       
     }
@@ -56,65 +53,402 @@
     .navbar-icon{
      color: rgb(255, 251, 251);
     }
-    .fh1{
+    .welc{
         color: #fff;
         text-shadow: 1px 1px 2px white;
+        text-align: center;     
+    } 
+    .welline{
+        margin-top: 200px;
+        letter-spacing: 3px;
     }
-    #banner{
+    .text1{
+        text-align: center;
+        text-decoration: underline;
+    }   
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(168, 164, 164, 0.19);
+  max-width: 400px;
+  margin:  10px ;
+  text-align: center;
+  font-family: arial;
+}
+.button1{
+background-color: #0a0a0a;
+ color: #fff;
+ border-radius: 8px;
+ padding: 10px;
+ margin-bottom: 10px;
+
+}
+ .flex-container{
         display: flex;
         justify-content: center;
         align-items: center;
-        color:#fff;
-        text-align: center;
-        align-items: center;
-        background-color: rgba(0,0,0,0.2);
-       padding: 10px 20px;
-       border-radius: 5px ;
-       font-size: 3.5rem;
-    }
-    
-    </style>
+ }
+ .ncard{
+  margin-left: 300px;
+  
+ }
+ .ncard1{
+  margin-left: 300px;
+  margin-right: 200px;
+  
+ }
+ .button2{
+  text-align: center;
+  background-color: #0a0a0a;
+ color: #fff;
+ border-radius: 8px;
+ padding: 10px;
+ margin-bottom: 10px;
+ margin-left: 600px;
+ }
+ .text2{
+  text-align: center;
+        text-decoration: underline;
+        margin-left: 80px;
+ }
+ .text3{
+  text-align: center;
+        text-decoration: underline;
+        margin-left: 30px;
+
+ }
+ 
+  .align{
+    background-color: #fbfdf7;;
+    padding: 20px 30px;
+    text-align: center;
+  
+  }
+  .footer-area{
+    background-color: #6B8E23;;
+    padding: 20px 30px;
+    text-align: center;
+}
+.footer-area h2{
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.footer-area p{
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.footer-bottom-area{
+    padding: 20px 0;
+    text-align: center;
+    font-size:18px;
+    font-weight: 500;
+    background-color: #fff;
+}
+.button3{
+  text-align: center;
+  background-color: #0a0a0a;
+ color: #fff;
+ border-radius: 8px;
+ padding: 10px;
+ margin-bottom: 10px;
+ margin-left: 30px;
+
+}
+ 
+ 
+ </style>
 </head>
-<body>
-    
-        <header>           
-            <p class="normal" class="fixed"><i class="fa fa-pagelines" style="font-size:50px "></i>  EARTHLY DELIGHT</p> 
-           <nav class="navbar  sticky-top  navbar-expand-sm  navbar-light">
+<body>   
+        <header>                     
+           <nav class="navbar  fixed-top  navbar-expand-sm  navbar-light">
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="collapse navbar-collapse" id="navbarCollapse" aria-expanded="true">
                 <ul class="navbar-nav ">
-                    <li class="nav-item "><a class="nav-link" href="#"> <b> Home </b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> <b>Feature </b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> <b>Catagory</b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> <b>Action</b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> <b>Contact</b></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><b>About </b></a></li>               
+                    <li class="nav-item "><a class="nav-link" style="color:#fff" href="#"> <b><i class="fa fa-pagelines" style="font-size:26px "></i></b></a></li>
+                    <li class="nav-item "><a class="nav-link" style="color:#fff"  href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#">Feature </a></li>
+                    <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#">Catagory</a></li>
+                    <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#"> Action</a></li>
+                    <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#"> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#">About</a></li>               
                 </ul> </div>              
-     <input class="search" class="navbar navbar-expand-sm class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">              
-      <div class="container"></div>
+     
     <ul class="navbar-nav" class="navbar navbar-expand-sm">
     <li id="icon1" class=" nav-item" style="float:right"><a class="nav-link" href=""> <b><i class="fa fa-shopping-cart navbar-icon" style="font-size:26px" ></i></b></a></li>
     <li  id="icon2"class="nav-item"style="float:right"><a class="nav-link" href=""> <b><i class="fa fa-heart-o navbar-icon" style="font-size:26px "></i></b></a></li>
     <li id="icon3" class="nav-item" style="float:right"><a class="nav-link" href=""> <b><i class="fa fa-user-circle-o navbar-icon" style="font-size:26px "></b></i></a></li>
    </ul>          
 </nav> <br><br><br><br>
- <section id="banner">
-    <div class="banner-container">
-        <div class="banner-content text-center">
-            <h1  class="font-weight-bolder text-white  mt-5 fh1"><b>WELCOME TO THE WORLD OF GREENERY </b></h1>
-            <h5 class="font-weight-bolder text-white ">An incredible place where u can find the details of your desire trees .Can buy trees and also can bid trees.</h5>
-            <p></p>
-        </div>
+<div class="welline">
+ <div class="welc">
+    <h1><b>WELCOME TO THE WORLD OF GREENERY</b></h1>
+    <div class="line">
+        <p>An incredible place where u can find the details of your desire trees .Can buy trees and also can bid trees.</p>
     </div>
+ </div>
+</div>
+        </header> <br> <br> <br>      
+        <div>
+            <h1 class="text1"><b>Our Catagory</b></h1>
+          </div> <br> <br>
+          <div class="flex-container">
+           
+          <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="apple.jpg"  style="width:100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <h1>Fruit Tree</h1>
+                        <p> Plant fruit trees and other edible plants to turn your garden into a productive delight.</p>
+                        <button class="button1">view trees</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body"> 
+                        <img src="marigolds.jpg"  style="width:100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <h1>Flower Tree</h1>
+  <p>Plant flower  plants to turn your garden into a beautiful delight</p>
+  <button class="button1">view trees</button>
+                    </div>
+                </div>
+            </div>
+          </div></div> <br> <br>
 
- </section>
-        </header>
-        <main>
-            
-            
-        </main>
+          <div class="flex-container">
+           
+            <div class="row">
+              <div class="col-lg-6">
+                  <div class="card">
+                      <div class="card-body">
+                          <img src="bonsai.jpg"  style="width:100%" height="300px">
+                      </div>
+                      <div class="card-footer"> <h1>Bonsai Tree</h1>
+                        <p>Giving a Bonsai as a gift is said to double the fortune that is found by the recipient. This living piece of art invites care, nurturing, patience and positivity into your life.</p>
+                        <button class="button1">view trees</button></div>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <div class="card">
+                      <div class="card-body"> 
+                          <img src="seeds.jpg"  style="width:100%" height="300px">
+                      </div>
+                      <div class="card-footer"><h1>Seeds</h1>
+                        <p>Seeds are produced in several related groups of plants, and their manner of production distinguishes the angiosperms ("enclosed seeds") from the gymnosperms . </p>
+                        <button class="button1"> view trees</button></div>
+                  </div>
+              </div>
+            </div></div> <br> <br>
+            <div class="text1">
+                <h1>Best Saleing</h1>
+              </div><br><br>
+
+              <div class="flex-container">
+                 <div class="ncard">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                      <div class="card">
+                          <div class="card-body">
+                              <img src="main.jpg"  style="width:100%" height="200px">
+                          </div>
+                          <div class="card-footer">
+                              <h1>Fruit Tree</h1>
+                              <p> 120tk</p>
+                              <button class="button1">view trees</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                      <div class="card">
+                          <div class="card-body"> 
+                              <img src="marigolds.jpg"  style="width:100%" height="150px">
+                          </div>
+                          <div class="card-footer">
+                              <h1>Flower Tree</h1>
+                                      <p>80tk</p>
+        <button class="button1">view trees</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="apple.jpg"  style="width:100%" height="200px">
+                        </div>
+                        <div class="card-footer">
+                            <h1>Fruit Tree</h1>
+                            <p>100tk </p>
+                            <button class="button1">view trees</button>
+                        </div>
+                    </div>
+                </div>
+                </div></div></div> <br> <br>
+      
+                <div class="flex-container">
+                  <div class="ncard1">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                         <div class="card">
+                            <div class="card-body">
+                                <img src="bonsai.jpg"  style="width:100%" height="150px">
+                            </div>
+                            <div class="card-footer"> <h1>Bonsai Tree</h1>
+                              <p>200tk</p>
+                              <button class="button1">view trees</button></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card">
+                            <div class="card-body"> 
+                                <img src="bonsai1.jpg"  style="width:100%" height="200px">
+                            </div>
+                            <div class="card-footer"><h1>Seeds</h1>
+                              <p>250tk </p>
+                              <button class="button1"> view trees</button></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                      <div class="card">
+                         <div class="card-body">
+                             <img src="mango.jpg"  style="width:100%" height="150px">
+                         </div>
+                         <div class="card-footer"> <h1>Bonsai Tree</h1>
+                           <p>50tk</p>
+                           <button class="button1">view trees</button></div>
+                           
+                     </div>
+                 </div>
+                  </div>
+                  </div></div> <br>
+                  <button  class="button2">Load More </button><br>
+                  <div>
+                    <h1 class="text2"><b>Shop Our Product</b></h1>
+                  </div> <br> <br>
+                 
+        
+                      <div class="flex-container">
+                         <div class="ncard">
+                        <div class="row">
+                          <div class="col-lg-3 col-sm-6">
+                              <div class="card">
+                                  <div class="card-body">
+                                      <img src="main.jpg"  style="width:100%" height="200px">
+                                  </div>
+                                  <div class="card-footer">
+                                      <h1>Fruit Tree</h1>
+                                      <p> 120tk</p>
+                                      <button class="button1">view trees</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-sm-6">
+                              <div class="card">
+                                  <div class="card-body"> 
+                                      <img src="marigolds.jpg"  style="width:100%" height="150px">
+                                  </div>
+                                  <div class="card-footer">
+                                      <h1>Flower Tree</h1>
+                                              <p>80tk</p>
+                <button class="button1">view trees</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="apple.jpg"  style="width:100%" height="200px">
+                                </div>
+                                <div class="card-footer">
+                                    <h1>Fruit Tree</h1>
+                                    <p>100tk </p>
+                                    <button class="button1">view trees</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div></div></div> <br> <br>
+              
+                        <div class="flex-container">
+                          <div class="ncard1">
+                          <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                 <div class="card">
+                                    <div class="card-body">
+                                        <img src="bonsai.jpg"  style="width:100%" height="150px">
+                                    </div>
+                                    <div class="card-footer"> <h1>Bonsai Tree</h1>
+                                      <p>200tk</p>
+                                      <button class="button1">view trees</button></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body"> 
+                                        <img src="bonsai1.jpg"  style="width:100%" height="200px">
+                                    </div>
+                                    <div class="card-footer"><h1>Seeds</h1>
+                                      <p>250tk </p>
+                                      <button class="button1"> view trees</button></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                              <div class="card">
+                                 <div class="card-body">
+                                     <img src="mango.jpg"  style="width:100%" height="150px">
+                                 </div>
+                                 <div class="card-footer"> <h1>Bonsai Tree</h1>
+                                   <p>50tk</p>
+                                   <button class="button1">view trees</button></div>
+                                   
+                             </div>
+                         </div>
+                          </div>
+                          </div></div> <br>
+                          <button  class="button2">Load More </button><br>
+
+                          <div class="text3">
+                            <h1> Gardening Tips </h1>
+                           </div>
+                           <br>
+                           <div class="align"> 
+                           <div class="raw">
+                            <div class="col-sm-6 col-lg-12">                                                    
+                            <h1>1. Site it right.</h1>
+                            <p>Starting a garden is just like real estate it's all about location. Place your garden in a part of your yard where you'll see it regularly (out of sight, out of mind definitely applies to gardening). That way, you'll be much more likely to spend time in it.</p>
+                            <h1>2. Follow the sun.</h1>
+                          <p>Misjudging sunlight is a common pitfall when you're first learning to garden. Pay attention to how sunlight plays through your yard before choosing a spot for your garden. Most edible plants, including many vegetables, herbs, and fruits, need at least 6 hours of sun in order to thrive.</p>
+                            </div></div>
+                          <div class="raw">
+                            <div class="col-sm-6 col-lg-12">                             
+                          <h1>3. Stay close to water.</h1>
+                          <p>One of the best gardening tips you'll ever get is to plan your new garden near a water source. Make sure you can run a hose to your garden site, so you don't have to lug water to it each time your plants get thirsty. The best way to tell if plants need watering is to push a finger an inch down into the soil (that's about one knuckle deep). If it's dry, it's time to water.</p>
+                          <h1>4. Start with great soil.</h1>
+                          <p>When starting a garden, one of the top pieces of advice is to invest in soil that is nutrient-rich and well-drained. Achieve this just-right blend by mixing 3 inches of Miracle-Gro® All Purpose Garden Soil into the top 6 to 8 inches of existing soil if you're planning to plant in the ground. If you're planting in a raised bed, use Miracle-Gro® Raised Bed Soil, which is the perfect weight and texture for raised bed growing.</p>
+                          <button class="button3">Learn more </button><br>
+                           </div></div></div> 
+                          
+                          <div class="footer-area">
+                            <h2>Contact</h2>
+                            <p> <i class="fa fa-pagelines" style="font-size:26px "></i> Earthly Delight </p>
+                            <p> phone:0125212254</p>
+                            <p>email= info@ed.ac.bd</p>
+                        </div>
+                        <footer class="footer-bottom-area">
+                            <p>&copy;All Rights Reserved</p>
+                        </footer>
+
+
+              
+             
+          
+             
         <footer>
 
         </footer>
