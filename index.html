@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Home page</title>
     <style>
     
@@ -65,36 +67,45 @@
     .text1{
         text-align: center;
         text-decoration: underline;
-    }   
-    .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(168, 164, 164, 0.19);
-  max-width: 400px;
-  margin:  10px ;
-  text-align: center;
-  font-family: arial;
-}
+    }  
+    .button{
+ background-color: #0a0a0a;
+ color: #fff;
+ border-radius: 8px;
+ padding: 10px;
+ margin-bottom: 10px;
+ text-align: center;
+ 
+
+    } 
+    
 .button1{
 background-color: #0a0a0a;
  color: #fff;
  border-radius: 8px;
  padding: 10px;
  margin-bottom: 10px;
+ text-align: center;
+ 
 
+}
+.card-title{
+  text-align: center;
+}
+.card-text{
+  text-align: center;
+}
+.card-footer{
+ text-align: center;
 }
  .flex-container{
         display: flex;
         justify-content: center;
         align-items: center;
  }
- .ncard{
-  margin-left: 300px;
+ 
   
- }
- .ncard1{
-  margin-left: 300px;
-  margin-right: 200px;
-  
- }
+ 
  .button2{
   text-align: center;
   background-color: #0a0a0a;
@@ -144,6 +155,13 @@ background-color: #0a0a0a;
     font-weight: 500;
     background-color: #fff;
 }
+
+.container{
+ 
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 .button3{
   text-align: center;
   background-color: #0a0a0a;
@@ -151,11 +169,16 @@ background-color: #0a0a0a;
  border-radius: 8px;
  padding: 10px;
  margin-bottom: 10px;
- margin-left: 30px;
+ margin-left: 325px;
+ }
+ #client{
+     width: 50%;
+     height: 50%;
+     margin-left: 25%;
+     margin-top: 20%;
+ }
+ 
 
-}
- 
- 
  </style>
 </head>
 <body>   
@@ -170,7 +193,7 @@ background-color: #0a0a0a;
                     <li class="nav-item "><a class="nav-link" style="color:#fff"  href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#">Feature </a></li>
                     <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#">Catagory</a></li>
-                    <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#"> Action</a></li>
+                    <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#"> Auction</a></li>
                     <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#"> Contact</a></li>
                     <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#">Shop</a></li>
                     <li class="nav-item"><a class="nav-link"  style="color:#fff" href="#">About</a></li>               
@@ -190,249 +213,354 @@ background-color: #0a0a0a;
     </div>
  </div>
 </div>
-        </header> <br> <br> <br>      
+        </header> <br>      
         <div>
             <h1 class="text1"><b>Our Catagory</b></h1>
-          </div> <br> <br>
-          <div class="flex-container">
-           
-          <div class="row">
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="apple.jpg"  style="width:100%" height="300px">
-                    </div>
-                    <div class="card-footer">
-                        <h1>Fruit Tree</h1>
-                        <p> Plant fruit trees and other edible plants to turn your garden into a productive delight.</p>
-                        <button class="button1">view trees</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body"> 
-                        <img src="marigolds.jpg"  style="width:100%" height="300px">
-                    </div>
-                    <div class="card-footer">
-                        <h1>Flower Tree</h1>
-  <p>Plant flower  plants to turn your garden into a beautiful delight</p>
-  <button class="button1">view trees</button>
-                    </div>
-                </div>
-            </div>
-          </div></div> <br> <br>
+          </div> <br> 
 
-          <div class="flex-container">
-           
-            <div class="row">
-              <div class="col-lg-6">
-                  <div class="card">
-                      <div class="card-body">
-                          <img src="bonsai.jpg"  style="width:100%" height="300px">
-                      </div>
-                      <div class="card-footer"> <h1>Bonsai Tree</h1>
-                        <p>Giving a Bonsai as a gift is said to double the fortune that is found by the recipient. This living piece of art invites care, nurturing, patience and positivity into your life.</p>
-                        <button class="button1">view trees</button></div>
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="card">
-                      <div class="card-body"> 
-                          <img src="seeds.jpg"  style="width:100%" height="300px">
-                      </div>
-                      <div class="card-footer"><h1>Seeds</h1>
-                        <p>Seeds are produced in several related groups of plants, and their manner of production distinguishes the angiosperms ("enclosed seeds") from the gymnosperms . </p>
-                        <button class="button1"> view trees</button></div>
-                  </div>
-              </div>
-            </div></div> <br> <br>
-            <div class="text1">
-                <h1>Best Saleing</h1>
-              </div><br><br>
-
-              <div class="flex-container">
-                 <div class="ncard">
-                <div class="row">
-                  <div class="col-lg-3 col-sm-6">
-                      <div class="card">
-                          <div class="card-body">
-                              <img src="main.jpg"  style="width:100%" height="200px">
-                          </div>
-                          <div class="card-footer">
-                              <h1>Fruit Tree</h1>
-                              <p> 120tk</p>
-                              <button class="button1">view trees</button>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                      <div class="card">
-                          <div class="card-body"> 
-                              <img src="marigolds.jpg"  style="width:100%" height="150px">
-                          </div>
-                          <div class="card-footer">
-                              <h1>Flower Tree</h1>
-                                      <p>80tk</p>
-        <button class="button1">view trees</button>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="apple.jpg"  style="width:100%" height="200px">
-                        </div>
-                        <div class="card-footer">
-                            <h1>Fruit Tree</h1>
-                            <p>100tk </p>
-                            <button class="button1">view trees</button>
-                        </div>
+             <div class="container">
+              <div class="row">
+                <div class="col-md-6 mt-3 p-3">
+                 <div class="card">
+                  <img src="apple.jpg" alt="fruit" class="card-img-top">
+                  <div class="card-body">
+                    <h1 class="card-title">Fruit</h1>
+                    <p class="card-text">Plant fruit trees and other edible plants to turn your garden into a productive delight.</p>
+                    <div class="card-footer">
+                      <button class="button">view trees</button>
                     </div>
-                </div>
-                </div></div></div> <br> <br>
-      
-                <div class="flex-container">
-                  <div class="ncard1">
-                  <div class="row">
-                    <div class="col-lg-4 col-sm-6">
-                         <div class="card">
-                            <div class="card-body">
-                                <img src="bonsai.jpg"  style="width:100%" height="150px">
-                            </div>
-                            <div class="card-footer"> <h1>Bonsai Tree</h1>
-                              <p>200tk</p>
-                              <button class="button1">view trees</button></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="card">
-                            <div class="card-body"> 
-                                <img src="bonsai1.jpg"  style="width:100%" height="200px">
-                            </div>
-                            <div class="card-footer"><h1>Seeds</h1>
-                              <p>250tk </p>
-                              <button class="button1"> view trees</button></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                      <div class="card">
-                         <div class="card-body">
-                             <img src="mango.jpg"  style="width:100%" height="150px">
-                         </div>
-                         <div class="card-footer"> <h1>Bonsai Tree</h1>
-                           <p>50tk</p>
-                           <button class="button1">view trees</button></div>
-                           
-                     </div>
+                  </div>
                  </div>
+                </div>
+                <div class="col-md-6 mt-3 p-3">
+                  <div class="card">
+                   <img src="rose orange.jpg" alt="fruit" class="card-img-top">
+                   <div class="card-body">
+                     <h1 class="card-title">Flower Tree</h1>
+                     <p class="card-text">Plant flower  plants to turn your garden into a beautiful delight .It will refresh your mind</p>
+                     <div class="card-footer">
+                       <button class="button">view trees</button>
+                     </div>
+                   </div>
                   </div>
-                  </div></div> <br>
-                  <button  class="button2">Load More </button><br>
-                  <div>
-                    <h1 class="text2"><b>Shop Our Product</b></h1>
-                  </div> <br> <br>
-                 
-        
-                      <div class="flex-container">
-                         <div class="ncard">
-                        <div class="row">
-                          <div class="col-lg-3 col-sm-6">
-                              <div class="card">
-                                  <div class="card-body">
-                                      <img src="main.jpg"  style="width:100%" height="200px">
-                                  </div>
-                                  <div class="card-footer">
-                                      <h1>Fruit Tree</h1>
-                                      <p> 120tk</p>
-                                      <button class="button1">view trees</button>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="col-lg-3 col-sm-6">
-                              <div class="card">
-                                  <div class="card-body"> 
-                                      <img src="marigolds.jpg"  style="width:100%" height="150px">
-                                  </div>
-                                  <div class="card-footer">
-                                      <h1>Flower Tree</h1>
-                                              <p>80tk</p>
-                <button class="button1">view trees</button>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="col-lg-3 col-sm-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="apple.jpg"  style="width:100%" height="200px">
-                                </div>
-                                <div class="card-footer">
-                                    <h1>Fruit Tree</h1>
-                                    <p>100tk </p>
-                                    <button class="button1">view trees</button>
-                                </div>
-                            </div>
-                        </div>
-                        </div></div></div> <br> <br>
-              
-                        <div class="flex-container">
-                          <div class="ncard1">
-                          <div class="row">
-                            <div class="col-lg-4 col-sm-6">
-                                 <div class="card">
-                                    <div class="card-body">
-                                        <img src="bonsai.jpg"  style="width:100%" height="150px">
-                                    </div>
-                                    <div class="card-footer"> <h1>Bonsai Tree</h1>
-                                      <p>200tk</p>
-                                      <button class="button1">view trees</button></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body"> 
-                                        <img src="bonsai1.jpg"  style="width:100%" height="200px">
-                                    </div>
-                                    <div class="card-footer"><h1>Seeds</h1>
-                                      <p>250tk </p>
-                                      <button class="button1"> view trees</button></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6">
-                              <div class="card">
-                                 <div class="card-body">
-                                     <img src="mango.jpg"  style="width:100%" height="150px">
-                                 </div>
-                                 <div class="card-footer"> <h1>Bonsai Tree</h1>
-                                   <p>50tk</p>
-                                   <button class="button1">view trees</button></div>
-                                   
-                             </div>
-                         </div>
-                          </div>
-                          </div></div> <br>
-                          <button  class="button2">Load More </button><br>
+                 </div>
+              </div>            
+              <div class="row">
+                <div class="col-md-6 mt-3 p-3">
+                 <div class="card">
+                  <img src="bonsai1.jpg" alt="fruit" class="card-img-top">
+                  <div class="card-body">
+                    <h1 class="card-title">Bonsai</h1>
+                    <p class="card-text">Giving a Bonsai as a gift is said to double the fortune that is found by the recipient. This living piece of art invites care, nurturing, patience and positivity into your life.</p>
+                    <div class="card-footer">
+                      <button class="button">view trees</button>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-md-6 mt-3 p-3">
+                  <div class="card">
+                   <img src="seeds.jpg" alt="fruit" class="card-img-top">
+                   <div class="card-body">
+                     <h1 class="card-title">Seeds</h1>
+                     <p class="card-text">Seeds are produced in several related groups of plants, and their manner of production distinguishes the angiosperms ("enclosed seeds") from the gymnosperms,useful for tree plantation</p>
+                     <div class="card-footer">
+                       <button class="button">view trees</button>
+                     </div>
+                   </div>
+                  </div>
+                 </div>
+              </div>
+             </div><br>
+             <div>
+              <h1 class="text1"><b>Our Best Saling Product</b></h1>
+            </div> <br> <br>
 
-                          <div class="text3">
-                            <h1> Gardening Tips </h1>
-                           </div>
-                           <br>
-                           <div class="align"> 
-                           <div class="raw">
-                            <div class="col-sm-6 col-lg-12">                                                    
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="bonsai1.jpg" alt="fruit" class="card-img-top">
+                        <div class="card-body">
+                          <h1 class="card-title">Bonsai</h1>
+                          <p class="card-text">200tk</p>
+                          <div class="card-footer">
+                            <button class="button1">view trees</button>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="rose orange.jpg" alt="fruit" class="card-img-top">
+                        <div class="card-body">
+                          <h1 class="card-title">Rose</h1>
+                          <p class="card-text">50tk</p>
+                          <div class="card-footer">
+                            <button class="button1">view trees</button>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="bonsai.jpg" alt="fruit" class="card-img-top">
+                        <div class="card-body">
+                          <h1 class="card-title">Bonsai</h1>
+                          <p class="card-text">180tk</p>
+                          <div class="card-footer">
+                            <button class="button1">view trees</button>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                  </div><br><br>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="apple.jpg" alt="fruit" class="card-img-top">
+                        <div class="card-body">
+                          <h1 class="card-title">Apple</h1>
+                          <p class="card-text">120tk</p>
+                          <div class="card-footer">
+                            <button class="button1">view trees</button>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="mango.jpg" alt="fruit" class="card-img-top">
+                        <div class="card-body">
+                          <h1 class="card-title">Mango</h1>
+                          <p class="card-text">50tk</p>
+                          <div class="card-footer">
+                            <button class="button1">view trees</button>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="rose orange.jpg" alt="fruit" class="card-img-top">
+                        <div class="card-body">
+                          <h1 class="card-title">Cosmos</h1>
+                          <p class="card-text">180tk</p>
+                          <div class="card-footer">
+                            <button class="button1">view trees</button>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+                 </div><br>
+                 <h1 class="text1"><b>Shop with Delight</b></h1>
+            </div> <br> <br>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="bonsai1.jpg" alt="fruit" class="card-img-top">
+                    <div class="card-body">
+                      <h1 class="card-title">Bonsai</h1>
+                      <p class="card-text">200tk</p>
+                      <div class="card-footer">
+                        <button class="button1">view trees</button>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="rose orange.jpg" alt="fruit" class="card-img-top">
+                    <div class="card-body">
+                      <h1 class="card-title">Rose</h1>
+                      <p class="card-text">50tk</p>
+                      <div class="card-footer">
+                        <button class="button1">view trees</button>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="bonsai.jpg" alt="fruit" class="card-img-top">
+                    <div class="card-body">
+                      <h1 class="card-title">Bonsai</h1>
+                      <p class="card-text">180tk</p>
+                      <div class="card-footer">
+                        <button class="button1">view trees</button>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+              </div><br><br>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="apple.jpg" alt="fruit" class="card-img-top">
+                    <div class="card-body">
+                      <h1 class="card-title">Apple</h1>
+                      <p class="card-text">120tk</p>
+                      <div class="card-footer">
+                        <button class="button1">view trees</button>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="mango.jpg" alt="fruit" class="card-img-top">
+                    <div class="card-body">
+                      <h1 class="card-title">Mango</h1>
+                      <p class="card-text">50tk</p>
+                      <div class="card-footer">
+                        <button class="button1">view trees</button>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="rose orange.jpg" alt="fruit" class="card-img-top">
+                    <div class="card-body">
+                      <h1 class="card-title">Cosmos</h1>
+                      <p class="card-text">180tk</p>
+                      <div class="card-footer">
+                        <button class="button1">view trees</button>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+              </div>
+             </div> <br>
+             <div>
+              <h1 class="text1"><b>Deal of the day</b></h1>
+            </div> <br>
+  
+            <div class="container">
+             <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              </div>
+              
+              <!-- The slideshow/carousel -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="apple.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                  <div class="carousel-caption">
+                    <h3>Apple tree</h3>
+                    <h3><b>30% discount</b></h3>
+                    <button class="button1">view trees</button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="rose orange.jpg" alt="Chicago" class="d-block" style="width:100%">
+                  <div class="carousel-caption">
+                    <h3>Rose</h3>
+                    <h3><b>10% discount</b></h3>
+                    <button class="button1">view trees</button>
+                  </div> 
+                </div>
+                <div class="carousel-item">
+                  <img src="bonsai.jpg" alt="New York" class="d-block" style="width:100%">
+                  <div class="carousel-caption">
+                    <h3>Bonsai</h3>
+                    <h3><b>20% discount</b></h3>
+                    <button class="button1">view trees</button>
+                  </div>  
+                </div>
+              </div>
+              
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div> </div>
+            
+             <div> <br>
+              <h1 class="text1"><b>Gardening Tips</b></h1>
+            </div> <br> 
+            <div class="container">                         
+                          
+                           <div class="row">
+                            <div class="col-sm-6 col-md-12">                                                    
                             <h1>1. Site it right.</h1>
                             <p>Starting a garden is just like real estate it's all about location. Place your garden in a part of your yard where you'll see it regularly (out of sight, out of mind definitely applies to gardening). That way, you'll be much more likely to spend time in it.</p>
                             <h1>2. Follow the sun.</h1>
                           <p>Misjudging sunlight is a common pitfall when you're first learning to garden. Pay attention to how sunlight plays through your yard before choosing a spot for your garden. Most edible plants, including many vegetables, herbs, and fruits, need at least 6 hours of sun in order to thrive.</p>
                             </div></div>
-                          <div class="raw">
-                            <div class="col-sm-6 col-lg-12">                             
+                          <div class="row">
+                            <div class="col-sm-6 col-md-12">                             
                           <h1>3. Stay close to water.</h1>
                           <p>One of the best gardening tips you'll ever get is to plan your new garden near a water source. Make sure you can run a hose to your garden site, so you don't have to lug water to it each time your plants get thirsty. The best way to tell if plants need watering is to push a finger an inch down into the soil (that's about one knuckle deep). If it's dry, it's time to water.</p>
                           <h1>4. Start with great soil.</h1>
                           <p>When starting a garden, one of the top pieces of advice is to invest in soil that is nutrient-rich and well-drained. Achieve this just-right blend by mixing 3 inches of Miracle-Gro® All Purpose Garden Soil into the top 6 to 8 inches of existing soil if you're planning to plant in the ground. If you're planting in a raised bed, use Miracle-Gro® Raised Bed Soil, which is the perfect weight and texture for raised bed growing.</p>
                           <button class="button3">Learn more </button><br>
-                           </div></div></div> 
+                           </div></div> </div><br>
+                           <div> 
+                            <h1 class="text1"><b>Happy Clients</b></h1>
+                          </div> <br> 
+
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <img src="client.png" alt="fruit" class="card-img-top " id="client">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Noor Rahman</h5>
+                                    <p class="card-text"><i class="fa fa-star" style="font-size:26px"></i> <i class="fa fa-star" style="font-size:26px"></i> <i class="fa fa-star" style="font-size:26px" ></i></p>
+                                    <div class="card-footer">
+                                      <h5 class="comment">Comment</h5>
+                                      <p>Thank you for an outstanding job! Very very pleased, such a professional job. Will definitely recommend.Products are so fresh</p>
+                                    </div>
+                                  </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <img src="client.png" alt="fruit" class="card-img-top" id="client">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Sara Khan</h5>
+                                    <p class="card-text"><i class="fa fa-star" style="font-size:26px"></i> <i class="fa fa-star" style="font-size:26px"></i> <i class="fa fa-star" style="font-size:26px" ></i></p>
+                                    <div class="card-footer">
+                                      <h5 class="comment">Comment</h5>
+                                      <p>Thank you for an outstanding job! Very very pleased, such a professional job. Will definitely recommend.Products are so fresh</p>
+                                    </div>
+                                  </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="card">
+                                  <img src="client.png" alt="fruit" class=" card-img-top" id="client">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Ramsha kabir</h5>
+                                    <p class="card-text"><i class="fa fa-star" style="font-size:26px"></i> <i class="fa fa-star" style="font-size:26px"></i> <i class="fa fa-star" style="font-size:26px" ></i></p>
+                                    <div class="card-footer">
+                                      <h5 class="comment">Comment</h5>
+                                      <p>Thank you for an outstanding job! Very very pleased, such a professional job. Will definitely recommend.Products are so fresh</p>
+                                    </div>
+                                  </div>
+                                 </div>
+                              </div>
+                            </div> <br>
+                            <button class="button3">See More</button>
+                          </div><br>
+                           
+
+
+                          
+
+
+
+
                           
                           <div class="footer-area">
                             <h2>Contact</h2>
@@ -443,16 +571,14 @@ background-color: #0a0a0a;
                         <footer class="footer-bottom-area">
                             <p>&copy;All Rights Reserved</p>
                         </footer>
+                      
 
 
               
              
           
              
-        <footer>
-
-        </footer>
-
+       
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
